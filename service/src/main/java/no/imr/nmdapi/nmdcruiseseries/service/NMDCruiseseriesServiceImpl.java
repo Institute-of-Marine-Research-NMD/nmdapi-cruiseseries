@@ -3,6 +3,7 @@ package no.imr.nmdapi.nmdcruiseseries.service;
 import java.util.List;
 import no.imr.commons.nmdcruiseseries.domain.v1.CruiseSerieType;
 import no.imr.nmdapi.dao.file.NMDDataDao;
+import no.imr.nmdapi.exceptions.BadRequestException;
 import no.imr.nmdapi.generic.response.v1.ListElementType;
 import no.imr.nmdapi.generic.response.v1.ResultElementType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,9 +30,11 @@ public class NMDCruiseseriesServiceImpl implements NMDCruiseseriesService {
 
    @Override
     public void insertData(final String name, final CruiseSerieType cruiseserie) {
+        if (!name.equalsIgnoreCase(cruiseserie.getCruiseseriename())) {
+            throw new BadRequestException("Cruiseserie name is not equal to value in the data.");
+        }
         nmdDataDao.insert(name, cruiseserie, CruiseSerieType.class);
     }
-
 
     @Override
     public void updateData(final String name, final CruiseSerieType cruiseserie) {
