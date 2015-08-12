@@ -8,7 +8,7 @@ import com.sun.xml.bind.marshaller.NamespacePrefixMapper;
  */
 public class CruiseseriesNamespacePrefixMapper extends NamespacePrefixMapper {
 
-    public static final String BIOTIC_NS = "http://www.imr.no/formats/nmdcruiseseries/v1";
+    public static final String CRUISESERIES_NS = "http://www.imr.no/formats/nmdcruiseseries/v1";
 
     @Override
     public String getPreferredPrefix(String namespaceUri,
