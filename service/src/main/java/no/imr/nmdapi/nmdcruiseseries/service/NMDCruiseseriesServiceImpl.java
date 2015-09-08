@@ -30,7 +30,7 @@ public class NMDCruiseseriesServiceImpl implements NMDCruiseseriesService {
 
     @Override
     public Object getData(final String name) {
-        return seriesReferenceDao.get(name, CruiseSerieType.class.getPackage().getName());
+        return seriesReferenceDao.get(name);
     }
 
     @Override
