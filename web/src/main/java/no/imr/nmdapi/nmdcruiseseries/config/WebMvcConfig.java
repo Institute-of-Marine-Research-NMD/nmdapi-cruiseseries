@@ -5,6 +5,7 @@ import java.util.List;
 import javax.xml.bind.JAXBException;
 import no.imr.nmdapi.common.jaxb.converters.JAXBHttpMessageConverter;
 import no.imr.nmdapi.nmdcruiseseries.converters.mapper.CruiseseriesNamespacePrefixMapper;
+import no.imr.nmdapi.nmdcruiseseries.converters.mapper.DatasetNamespacePrefixMapper;
 import no.imr.nmdapi.nmdcruiseseries.converters.mapper.ResponseNamespacePrefixMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -60,6 +61,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         converters.add(getMappingJacksonHttpMessageConverter());
         converters.add(getCruiseseriesMappingJaxBHttpMessageConverter());
+        converters.add(getDatasetMappingJaxBHttpMessageConverter());
         converters.add(getResponseMappingJaxBHttpMessageConverter());
     }
 
@@ -98,6 +100,22 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         try {
             converter = new JAXBHttpMessageConverter(new ResponseNamespacePrefixMapper(),
                     "no.imr.nmdapi.generic.response.v1");
+        } catch (JAXBException ex) {
+            LOGGER.error("Error creating message converter.", ex);
+        }
+        return converter;
+    }
+
+    /**
+     * Creates the xml converter for nmddataset
+     *
+     * @return The xml converter.
+     */
+    @Bean(name = "jaxbDatasetMessageConverter")
+    public HttpMessageConverter getDatasetMappingJaxBHttpMessageConverter() {
+        JAXBHttpMessageConverter converter = null;
+        try {
+            converter = new JAXBHttpMessageConverter(new DatasetNamespacePrefixMapper(), "no.imr.nmd.commons.dataset.jaxb");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
         }

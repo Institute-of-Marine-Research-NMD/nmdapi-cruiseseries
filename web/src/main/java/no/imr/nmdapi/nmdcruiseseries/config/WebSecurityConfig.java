@@ -11,7 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.access.AccessDecisionVoter;
@@ -27,7 +26,6 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @Configuration
 @EnableWebMvcSecurity
 @EnableResourceServer
-@ComponentScan("no.imr.nmdapi.web.security.access.voters")
 @Order(-10)
 public class WebSecurityConfig extends ResourceServerConfigurerAdapter {
 

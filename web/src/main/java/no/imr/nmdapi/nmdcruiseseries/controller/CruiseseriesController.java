@@ -2,6 +2,8 @@ package no.imr.nmdapi.nmdcruiseseries.controller;
 
 import no.imr.commons.nmdcruiseseries.domain.v1.CruiseSerieType;
 import no.imr.framework.logging.slf4j.aspects.stereotype.PerformanceLogging;
+import no.imr.nmd.commons.dataset.jaxb.DatasetType;
+import no.imr.nmd.commons.dataset.jaxb.DatasetsType;
 import no.imr.nmdapi.generic.response.v1.ListElementType;
 import no.imr.nmdapi.nmdcruiseseries.service.NMDCruiseseriesService;
 import org.slf4j.Logger;
@@ -111,6 +113,49 @@ public class CruiseseriesController {
     public ListElementType list() {
         LOGGER.info("Start CruiseseriesController.list");
         return nmdCruiseseriesService.list();
+    }
+
+    /**
+     * List all dataset information.
+     *
+     * @return
+     */
+    @PerformanceLogging
+    @RequestMapping(params = "dataset",value = "/", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    public DatasetsType listDatasets() {
+        LOGGER.info("Start CruiseseriesController.listDatasets");
+        return nmdCruiseseriesService.listDatasets();
+    }
+
+    /**
+     * Update dataset information.
+     *
+     * @param dataset
+     */
+    @PerformanceLogging
+    @RequestMapping(params = "dataset",value = "/", method = RequestMethod.PUT)
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    public void updateDatasetInfo(@RequestBody DatasetType dataset) {
+        LOGGER.info("Start CruiseseriesController.updateDatasetInfo");
+        nmdCruiseseriesService.updateDatasets(dataset);
+    }
+
+    /**
+     * Get data.
+     *
+     * @param name
+     * @return
+     */
+    @PerformanceLogging
+    @RequestMapping(value = "/{name}/info", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    public Object findInfo(@PathVariable(value = "name") String name) {
+        LOGGER.info("Start CruiseseriesController.findInfo");
+        return nmdCruiseseriesService.getInfo(name);
     }
 
 }
