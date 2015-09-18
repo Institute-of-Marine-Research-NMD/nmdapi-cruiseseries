@@ -87,7 +87,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     public HttpMessageConverter getCruiseseriesMappingJaxBHttpMessageConverter() {
         JAXBHttpMessageConverter converter = null;
         try {
-            converter = new JAXBHttpMessageConverter(new CruiseseriesNamespacePrefixMapper(),
+            converter = new JAXBHttpMessageConverter(new CruiseseriesNamespacePrefixMapper(), false,
                     "no.imr.commons.nmdcruiseseries.domain.v1");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
@@ -98,7 +98,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     private HttpMessageConverter<?> getResponseMappingJaxBHttpMessageConverter() {
         JAXBHttpMessageConverter converter = null;
         try {
-            converter = new JAXBHttpMessageConverter(new ResponseNamespacePrefixMapper(),
+            converter = new JAXBHttpMessageConverter(new ResponseNamespacePrefixMapper(), false,
                     "no.imr.nmdapi.generic.response.v1");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
@@ -115,7 +115,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     public HttpMessageConverter getDatasetMappingJaxBHttpMessageConverter() {
         JAXBHttpMessageConverter converter = null;
         try {
-            converter = new JAXBHttpMessageConverter(new DatasetNamespacePrefixMapper(), "no.imr.nmd.commons.dataset.jaxb");
+            converter = new JAXBHttpMessageConverter(new DatasetNamespacePrefixMapper(), false, "no.imr.nmd.commons.dataset.jaxb");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
         }
