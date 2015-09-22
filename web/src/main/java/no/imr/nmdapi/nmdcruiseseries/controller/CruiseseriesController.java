@@ -1,7 +1,7 @@
 package no.imr.nmdapi.nmdcruiseseries.controller;
 
-import no.imr.commons.nmdcruiseseries.domain.v1.CruiseSerieType;
 import no.imr.framework.logging.slf4j.aspects.stereotype.PerformanceLogging;
+import no.imr.nmd.commons.cruiseseries.domain.v1.CruiseSerieType;
 import no.imr.nmd.commons.dataset.jaxb.DatasetType;
 import no.imr.nmd.commons.dataset.jaxb.DatasetsType;
 import no.imr.nmdapi.generic.response.v1.ListElementType;

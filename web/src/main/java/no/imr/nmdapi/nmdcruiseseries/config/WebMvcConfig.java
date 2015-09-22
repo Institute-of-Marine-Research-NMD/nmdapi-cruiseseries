@@ -1,6 +1,7 @@
 package no.imr.nmdapi.nmdcruiseseries.config;
 
 import com.fasterxml.jackson.databind.SerializationFeature;
+import java.net.URL;
 import java.util.List;
 import javax.xml.bind.JAXBException;
 import no.imr.nmdapi.common.jaxb.converters.JAXBHttpMessageConverter;
@@ -87,7 +88,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     public HttpMessageConverter getCruiseseriesMappingJaxBHttpMessageConverter() {
         JAXBHttpMessageConverter converter = null;
         try {
-            converter = new JAXBHttpMessageConverter(new CruiseseriesNamespacePrefixMapper(), false,
+            URL schemaFile = Thread.currentThread().getContextClassLoader().getResource("cruiseseries.xsd");
+            converter = new JAXBHttpMessageConverter(new CruiseseriesNamespacePrefixMapper(), false, schemaFile,
                     "no.imr.commons.nmdcruiseseries.domain.v1");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
