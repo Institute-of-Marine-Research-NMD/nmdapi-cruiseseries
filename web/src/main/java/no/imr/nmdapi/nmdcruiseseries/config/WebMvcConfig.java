@@ -90,7 +90,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         try {
             URL schemaFile = Thread.currentThread().getContextClassLoader().getResource("cruiseseries.xsd");
             converter = new JAXBHttpMessageConverter(new CruiseseriesNamespacePrefixMapper(), false, schemaFile,
-                    "no.imr.commons.nmdcruiseseries.domain.v1");
+                    "no.imr.nmd.commons.cruiseseries.domain.v1");
         } catch (JAXBException ex) {
             LOGGER.error("Error creating message converter.", ex);
         }
