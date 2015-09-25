@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CruiseSerie xmlns="http://www.imr.no/formats/nmdcruiseseries/v1" cruiseseriename="Norwegian Acoustic Sandeel Surveys in the North Sea">
+    <CruiseSeriesDescription>Acoustic sandeel survey in April- May covering in the north-eastern North Sea to map geographical distribution and obtain estimates of abundance, age, weight and length distribution of sandeel on all important sandeel areas in Norwegian zone</CruiseSeriesDescription>
+    <TimeStart>2005-05-13Z</TimeStart>
+    <TimeStop>ongoing</TimeStop>
+    <Sample sampleTime="2009">
+        <Cruise>
+            <Cruise cruisenr="2009107" shipName="G.O. Sars"/>
+        </Cruise>
+    </Sample>
+    <Sample sampleTime="2010">
+        <Cruises>
+            <Cruise cruisenr="2010205" shipName="Johan Hjort"/>
+        </Cruises>
+    </Sample>
+    <Sample sampleTime="2011">
+        <Cruises>
+            <Cruise cruisenr="2011206" shipName="Johan Hjort"/>
+        </Cruises>
+    </Sample>
+    <Sample sampleTime="2012">
+        <Cruises>
+            <Cruise cruisenr="2012837" shipName="Brennholm"/>
+        </Cruises>
+    </Sample>
+    <Sample sampleTime="2013">
+        <Cruises>
+            <Cruise cruisenr="2013842" shipName="Eros"/>
+        </Cruises>
+    </Sample>
+    <Sample sampleTime="2014">
+        <Cruises>
+            <Cruise cruisenr="2014807" shipName="Eros"/>
+        </Cruises>
+    </Sample>
+    <Sample sampleTime="2015">
+        <Cruises>
+            <Cruise cruisenr="2015837" shipName="Eros"/>
+        </Cruises>
+    </Sample>
+</CruiseSerie>
