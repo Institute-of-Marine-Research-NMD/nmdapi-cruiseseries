@@ -2,6 +2,7 @@ package no.imr.nmdapi.nmdcruiseseries.security.access.voters;
 
 import java.util.Collection;
 import java.util.HashSet;
+import no.imr.nmd.commons.dataset.jaxb.DataTypeEnum;
 import no.imr.nmdapi.dao.file.NMDSeriesReferenceDao;
 import no.imr.nmdapi.nmdcruiseseries.controller.CruiseseriesController;
 import org.apache.commons.configuration.Configuration;
@@ -56,7 +57,7 @@ public class CruiseseriesAccessDecisionVoter implements AccessDecisionVoter<Filt
             } else if (obj.getHttpRequest().getMethod().equalsIgnoreCase(HttpMethod.PUT.name()) || obj.getHttpRequest().getMethod().equalsIgnoreCase(HttpMethod.DELETE.name())) {
                 Collection<String> auths = getAuths(auth.getAuthorities());
                 if (args.length == 2) {
-                    if (auth.isAuthenticated() && seriesReferenceDao.hasWriteAccess(auths, "cruiseseries", args[1])) {
+                    if (auth.isAuthenticated() && seriesReferenceDao.hasWriteAccess(auths, DataTypeEnum.CRUISESERIES, args[1])) {
                         return ACCESS_GRANTED;
                     } else {
                         return ACCESS_DENIED;
@@ -75,7 +76,7 @@ public class CruiseseriesAccessDecisionVoter implements AccessDecisionVoter<Filt
                 if (args.length <= 1) {
                     // List page
                     return ACCESS_GRANTED;
-                } if (args.length > 1 && seriesReferenceDao.hasReadAccess(auths, "cruiseseries", args[1])) {
+                } if (args.length > 1 && seriesReferenceDao.hasReadAccess(auths, DataTypeEnum.CRUISESERIES, args[1])) {
                     return ACCESS_GRANTED;
                 } else {
                     return ACCESS_DENIED;

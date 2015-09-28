@@ -2,6 +2,7 @@ package no.imr.nmdapi.nmdcruiseseries.service;
 
 import java.util.List;
 import no.imr.nmd.commons.cruiseseries.domain.v1.CruiseSerieType;
+import no.imr.nmd.commons.dataset.jaxb.DataTypeEnum;
 import no.imr.nmd.commons.dataset.jaxb.DatasetType;
 import no.imr.nmd.commons.dataset.jaxb.DatasetsType;
 import no.imr.nmdapi.dao.file.NMDSeriesReferenceDao;
@@ -20,11 +21,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class NMDCruiseseriesServiceImpl implements NMDCruiseseriesService {
 
-    /**
-     * Data type.
-     */
-    private static final String TYPE = "cruiseseries";
-
     @Autowired
     private NMDSeriesReferenceDao seriesReferenceDao;
 
@@ -38,7 +34,7 @@ public class NMDCruiseseriesServiceImpl implements NMDCruiseseriesService {
 
     @Override
     public void deleteData(final String name) {
-        seriesReferenceDao.delete(TYPE, name, true);
+        seriesReferenceDao.delete(DataTypeEnum.CRUISESERIES, name, true);
     }
 
    @Override
@@ -49,7 +45,7 @@ public class NMDCruiseseriesServiceImpl implements NMDCruiseseriesService {
         String readRole = configuration.getString("default.readrole");
         String writeRole = configuration.getString("default.writerole");
         String owner = configuration.getString("default.owner");
-        seriesReferenceDao.insert(writeRole, readRole, owner, TYPE, name, cruiseserie, true);
+        seriesReferenceDao.insert(writeRole, readRole, owner, DataTypeEnum.CRUISESERIES, name, cruiseserie, true);
     }
 
     @Override
