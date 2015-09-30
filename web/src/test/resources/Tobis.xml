@@ -34,5 +34,10 @@
                 <Cruise cruisenr="2014807" shipName="Eros"/>
             </Cruises>
         </Sample>
+        <Sample sampleTime="2015">
+            <Cruises>
+                <Cruise cruisenr="2015837" shipName="Eros"/>
+            </Cruises>
+        </Sample>
     </Samples>
 </CruiseSerie>

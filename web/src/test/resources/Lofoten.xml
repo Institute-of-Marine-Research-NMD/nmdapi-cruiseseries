@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><CruiseSerie xmlns="http://www.imr.no/formats/nmdcruiseseries/v1" cruiseseriename="Lofoten survey">
+    <CruiseSeriesDescription></CruiseSeriesDescription>
+    <TimeStart>1970-05-01Z</TimeStart>
+    <TimeStop>ongoing</TimeStop>
+    <Samples>
+        <Sample sampleTime="1970">
+            <Cruises>
+                <Cruise cruisenr="1970001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1971">
+            <Cruises>
+                <Cruise cruisenr="1971001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1974">
+            <Cruises>
+                <Cruise cruisenr="1974001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1975">
+            <Cruises>
+                <Cruise cruisenr="1975001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1976">
+            <Cruises>
+                <Cruise cruisenr="1976001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1977">
+            <Cruises>
+                <Cruise cruisenr="1977001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1978">
+            <Cruises>
+                <Cruise cruisenr="1978001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1979">
+            <Cruises>
+                <Cruise cruisenr="1979001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1980">
+            <Cruises>
+                <Cruise cruisenr="1980001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1981">
+            <Cruises>
+                <Cruise cruisenr="1981001" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1982">
+            <Cruises>
+                <Cruise cruisenr="1982001" shipName="Djupaskjær"/>
+                <Cruise cruisenr="1998002" shipName="Johan Hjort"/>
+                <Cruise cruisenr="1982004" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1983">
+            <Cruises>
+                <Cruise cruisenr="1983002" shipName="Michael Sars"/>
+                <Cruise cruisenr="1983003" shipName="G.O.Sars"/>
+                <Cruise cruisenr="1983001" shipName="Johan Ruud"/>
+                <Cruise cruisenr="1983004" shipName="Michael Sars"/>
+                <Cruise cruisenr="1983001" shipName="Djupaskjær"/>
+                <Cruise cruisenr="1983002" shipName="Djupaskjær"/>
+                <Cruise cruisenr="1983003" shipName="Djupaskjær"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1984">
+            <Cruises>
+                <Cruise cruisenr="1984003" shipName="G.O. Sars"/>
+                <Cruise cruisenr="1984002" shipName="Johan Ruud"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1985">
+            <Cruises>
+                <Cruise cruisenr="1985003" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1986">
+            <Cruises>
+                <Cruise cruisenr="1986003" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1987">
+            <Cruises>
+                <Cruise cruisenr="1987004" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1988">
+            <Cruises>
+                <Cruise cruisenr="1988003" shipName="G.O.Sars"/>
+                <Cruise cruisenr="1988003" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1989">
+            <Cruises>
+                <Cruise cruisenr="1989006" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1990">
+            <Cruises>
+                <Cruise cruisenr="1990003" shipName="Eldjarn"/>
+                <Cruise cruisenr="1990003" shipName="Michael Sars"/>
+                <Cruise cruisenr="1990004" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1991">
+            <Cruises>
+                <Cruise cruisenr="1991004" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1992">
+            <Cruises>
+                <Cruise cruisenr="1992005" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1993">
+            <Cruises>
+                <Cruise cruisenr="1993003" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1994">
+            <Cruises>
+                <Cruise cruisenr="1994003" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1995">
+            <Cruises>
+                <Cruise cruisenr="1995103" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1996">
+            <Cruises>
+                <Cruise cruisenr="1996103" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1997">
+            <Cruises>
+                <Cruise cruisenr="1997204" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1998">
+            <Cruises>
+                <Cruise cruisenr="1998004" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1999">
+            <Cruises>
+                <Cruise cruisenr="1999004" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2000">
+            <Cruises>
+                <Cruise cruisenr="2000004" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2001">
+            <Cruises>
+                <Cruise cruisenr="2001004" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2002">
+            <Cruises>
+                <Cruise cruisenr="2002004" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2003">
+            <Cruises>
+                <Cruise cruisenr="2003004" shipName="Sarsen"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2004">
+            <Cruises>
+                <Cruise cruisenr="2004107" shipName="G.O.Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2005">
+            <Cruises>
+                <Cruise cruisenr="2005204" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2006">
+            <Cruises>
+                <Cruise cruisenr="2006204" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2007">
+            <Cruises>
+                <Cruise cruisenr="2007204" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2008">
+            <Cruises>
+                <Cruise cruisenr="2008203" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2009">
+            <Cruises>
+                <Cruise cruisenr="2009203" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2010">
+            <Cruises>
+                <Cruise cruisenr="2010203" shipName="Johan Hjort"/>
+                <Cruise cruisenr="2010607" shipName="Haakon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2011">
+            <Cruises>
+                <Cruise cruisenr="2011203" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2012">
+            <Cruises>
+                <Cruise cruisenr="2012203" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2013">
+            <Cruises>
+                <Cruise cruisenr="2013202" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2014">
+            <Cruises>
+                <Cruise cruisenr="2014203" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+    </Samples>
+</CruiseSerie>

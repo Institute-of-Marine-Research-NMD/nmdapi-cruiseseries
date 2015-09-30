@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><CruiseSerie xmlns="http://www.imr.no/formats/nmdcruiseseries/v1" cruiseseriename="NVG mai survey">
+    <CruiseSeriesDescription>dummy description</CruiseSeriesDescription>
+    <TimeStart>2005-05-13Z</TimeStart>
+    <TimeStop>ongoing</TimeStop>
+    <Samples>
+        <Sample sampleTime="1995">
+            <Cruises>
+                <Cruise cruisenr="1995205" shipName="Johan Hjort"/>
+                <Cruise cruisenr="1995009" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1996">
+            <Cruises>
+                <Cruise cruisenr="1996007" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1997">
+            <Cruises>
+                <Cruise cruisenr="1997007" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1998">
+            <Cruises>
+                <Cruise cruisenr="1998007" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1999">
+            <Cruises>
+                <Cruise cruisenr="1999006" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2000">
+            <Cruises>
+                <Cruise cruisenr="2000006" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2001">
+            <Cruises>
+                <Cruise cruisenr="2001206" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2002">
+            <Cruises>
+                <Cruise cruisenr="2002007" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2003">
+            <Cruises>
+                <Cruise cruisenr="2003006" shipName="Sarsen"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2004">
+            <Cruises>
+                <Cruise cruisenr="2004109" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2005">
+            <Cruises>
+                <Cruise cruisenr="2005107" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2006">
+            <Cruises>
+                <Cruise cruisenr="2006107" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2007">
+            <Cruises>
+                <Cruise cruisenr="2007106" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2008">
+            <Cruises>
+                <Cruise cruisenr="2008103" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2009">
+            <Cruises>
+                <Cruise cruisenr="2009206" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2010">
+            <Cruises>
+                <Cruise cruisenr="2010107" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2011">
+            <Cruises>
+                <Cruise cruisenr="2011106" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2012">
+            <Cruises>
+                <Cruise cruisenr="2012205" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2013">
+            <Cruises>
+                <Cruise cruisenr="2013204" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2014">
+            <Cruises>
+                <Cruise cruisenr="2014107" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+    </Samples>
+</CruiseSerie>
