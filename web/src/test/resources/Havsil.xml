@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><CruiseSerie xmlns="http://www.imr.no/formats/nmdcruiseseries/v1" cruiseseriename="Lofoten survey">
+    <CruiseSeriesDescription></CruiseSeriesDescription>
+    <TimeStart>2005-01-01Z</TimeStart>
+    <TimeStop>ongoing</TimeStop>
+    <Samples>
+        <Sample sampleTime="2005">
+            <Cruises>
+                <Cruise cruisenr="2005205" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2006">
+            <Cruises>
+                <Cruise cruisenr="2006207" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2007">
+            <Cruises>
+                <Cruise cruisenr="2007205" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2008">
+            <Cruises>
+                <Cruise cruisenr="2008205" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2009">
+            <Cruises>
+                <Cruise cruisenr="2009107" shipName="G.O. Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2010">
+            <Cruises>
+                <Cruise cruisenr="2010205" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2011">
+            <Cruises>
+                <Cruise cruisenr="2011206" shipName="Johan Hjort"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2012">
+            <Cruises>
+                <Cruise cruisenr="2012837" shipName="Brennholm"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2013">
+            <Cruises>
+                <Cruise cruisenr="2012837" shipName="Eros"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2014">
+            <Cruises>
+                <Cruise cruisenr="2014807" shipName="Eros"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2015">
+            <Cruises>
+                <Cruise cruisenr="2015837" shipName="Eros"/>
+            </Cruises>
+        </Sample>
+    </Samples>
+</CruiseSerie>
