@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CruiseSerie xmlns="http://www.imr.no/formats/nmdcruiseseries/v1" cruiseseriename="North Sea NOR shrimp NDSK cruise in Jan_Nov">
+    <CruiseSeriesDescription></CruiseSeriesDescription>
+    <TimeStart>1984-10-10Z</TimeStart>
+    <TimeStop>ongoing</TimeStop>
+    <Samples>
+        <Sample sampleTime="1984">
+            <Cruises>
+                <Cruise cruisenr="1984011" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1985">
+            <Cruises>
+                <Cruise cruisenr="1985012" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1986">
+            <Cruises>
+                <Cruise cruisenr="1986010" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1987">
+            <Cruises>
+                <Cruise cruisenr="1987012" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1988">
+            <Cruises>
+                <Cruise cruisenr="1988011" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1989">
+            <Cruises>
+                <Cruise cruisenr="1989014" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1990">
+            <Cruises>
+                <Cruise cruisenr="1990010" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1991">
+            <Cruises>
+                <Cruise cruisenr="1991011" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1992">
+            <Cruises>
+                <Cruise cruisenr="1992015" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1993">
+            <Cruises>
+                <Cruise cruisenr="1993012" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1994">
+            <Cruises>
+                <Cruise cruisenr="1994011" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1995">
+            <Cruises>
+                <Cruise cruisenr="1995112" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1996">
+            <Cruises>
+                <Cruise cruisenr="1996112" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1997">
+            <Cruises>
+                <Cruise cruisenr="1997116" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1998">
+            <Cruises>
+                <Cruise cruisenr="1998113" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="1999">
+            <Cruises>
+                <Cruise cruisenr="1999112" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2000">
+            <Cruises>
+                <Cruise cruisenr="2000113" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2001">
+            <Cruises>
+                <Cruise cruisenr="2001113" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2002">
+            <Cruises>
+                <Cruise cruisenr="2002112" shipName="Michael Sars"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2003">
+            <Cruises>
+                <Cruise cruisenr="2003616" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2004">
+            <Cruises>
+                <Cruise cruisenr="2004610" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2005">
+            <Cruises>
+                <Cruise cruisenr="2005614" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2006">
+            <Cruises>
+                <Cruise cruisenr="2006602" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2007">
+            <Cruises>
+                <Cruise cruisenr="2007603" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2008">
+            <Cruises>
+                <Cruise cruisenr="2008602" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2009">
+            <Cruises>
+                <Cruise cruisenr="2009603" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2010">
+            <Cruises>
+                <Cruise cruisenr="2010601" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2011">
+            <Cruises>
+                <Cruise cruisenr="2011601" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2012">
+            <Cruises>
+                <Cruise cruisenr="2012601" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2013">
+            <Cruises>
+                <Cruise cruisenr="2013602" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2014">
+            <Cruises>
+                <Cruise cruisenr="2014603" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+        <Sample sampleTime="2015">
+            <Cruises>
+                <Cruise cruisenr="2015601" shipName="Håkon Mosby"/>
+            </Cruises>
+        </Sample>
+    </Samples>
+</CruiseSerie>
